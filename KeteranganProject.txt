@@ -1,0 +1,44 @@
+Nama:Jefa Ilham Prayoga
+No:10
+Kelas:XII RPL B
+Tugas:Inventaris Sekolah
+
+Apliklasi Inventaris ini bertujuan untuk mengelola data-data inventaris di sekolah
+
+#Aplikasi ini memiliki 3 user yaitu Admin,Komite,Operator
+*Operator
+-Operator hanya bisa mengelola data sesuai jurusan
+-Bisa melihat data inventaris,mengajukan perawatan,mengajukan perbaikan sesuai jurusan
+-Melakukan pengisian berita acara penerimaan inventaris yang sudah dibuat admin atau manager,jika belum ada penerimaan barang tidak bisa mengajukan perawatan maupun perbaikan
+-Melakukan laporan perbaikan dan perawatan
+
+*Komite
+-Melihat data inventaris
+-Input data Inventaris(cetak kode inventaris)
+-Update Inventaris
+-Menyetujui pengajuan perbaikan
+-Pemusnahan data inventaris
+-Laporan perbaikan dan perawatan
+-Melihat log aktivitas Operator/Teknisi
+
+*Admin
+-Dapat melakukan semua akses operator dan komite
+-Menambahkan data dan peran user
+-Melihat log aktivitas user
+
+
+-Admin
+Username=admin
+Password=123456789
+
+
+-Komite
+Username=komite
+Password=123456789
+
+
+-Operator
+Username=operator
+Password=123456789
+
+
